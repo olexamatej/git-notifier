@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "git-notifier"
+version = "0.1.0"
+description = "Poll Git branches and play a configurable sound when new commits appear."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "git-notifier maintainers" }]
+
+[project.scripts]
+git-notifier = "git_notifier.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["git_notifier*"]

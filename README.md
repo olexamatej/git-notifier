@@ -8,6 +8,11 @@ The default sound is the metal pipe clip:
 https://www.youtube.com/watch?v=iDLmYZ5HqgM
 ```
 
+This is the guerilla warfare weapon.
+
+"All war is based on deception." 
+- Sun Tzu, The Art of War
+
 ## Requirements
 
 - Python 3.10+
